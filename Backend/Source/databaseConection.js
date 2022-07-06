@@ -10,7 +10,6 @@ const conection = mysql.createConnection({
 if (conection) {
     console.log('conexion a la bd');
 } else {
-
     return;
 }
 
